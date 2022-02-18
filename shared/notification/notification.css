@@ -1,0 +1,20 @@
+.notification {
+    width: 300px;
+    background-color: rgb(255, 67, 67);
+    color: white;
+    border-radius: 0.2rem;
+    display: flex;
+    position: relative;
+  }
+  
+  .notification p {
+    width: 80%;
+    padding: 0.5rem;
+  }
+  
+  .notification button {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+  }
+  
