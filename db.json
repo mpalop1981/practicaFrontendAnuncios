@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "migue",
+      "password": "$2b$10$Qg8Mm6wiRCjHFxE39cymsOAdlTthMvQop8mEnLOS7aagWtgWUdUUG",
+      "id": 1
+    },
+    {
+      "username": "user2",
+      "password": "$2b$10$6pnqLPm/kMJDxMnJkapD6OWZj65XhOuFs64jFbq/Xon4WkA5rreCe",
+      "id": 2
+    }
+  ],
+  "ads": [
+    {
+      "userId": 1,
+      "name": "coche segunda mano",
+      "description": "Cochde de segunda mano en muy buen estado",
+      "price": "2000",
+      "img": "https://www.flexicar.es/mediamkt/imagenes/mceu_67056291371615545425537.jpg",
+      "sell": "true",
+      "updatedAt": "2022-02-20T21:53:45.098Z",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "name": "moto segunda mano",
+      "description": "moto de segunda mano en muy buen estado",
+      "price": "500",
+      "img": "https://motosmarin.com/nuevaweb/wp-content/uploads/MOTOS-MARIN-Los-consejos-ma%CC%81s-importantes-para-comprar-una-moto-de-segunda-mano-1200x800.jpg",
+      "sell": "false",
+      "updatedAt": "2022-02-20T22:26:44.263Z",
+      "id": 2
+    },
+    {
+      "name": "Portatil",
+      "description": "portatil de segunda mano en muy buen estado",
+      "price": "200",
+      "img": "https://dgitech.es/wp-content/uploads/2020/12/portatil-hp-segunda-mano-1.jpg",
+      "sell": "true",
+      "userId": 2,
+      "updatedAt": "2022-02-20T22:31:31.644Z",
+      "id": 3
+    }
+  ]
+}
