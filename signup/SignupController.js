@@ -47,8 +47,6 @@ export class SignupController {
       const passwordInput = formData.get("passwordInput");
       const passwordMatchInput = formData.get("passwordMatchInput");
 
-      console.log(username, passwordInput, passwordMatchInput);
-
       const arePasswordsEqual = this.checkIfPasswordsAreEqual(
         passwordInput,
         passwordMatchInput
